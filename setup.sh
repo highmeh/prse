@@ -33,6 +33,6 @@ echo "[+] Setting up The Harvester"
 apt-get install -y theharvester > /dev/null
 echo "[+] Setting up Datasploit"
 apt-get install -y datasploit > /dev/null
-echo "Setting up Sublist3r"
+echo "[+] Setting up Sublist3r"
 apt-get install -y sublist3r > /dev/null
 echo "[+] DONE!"
