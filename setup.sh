@@ -26,7 +26,7 @@ pip install -r requirements.txt > /dev/null
 echo "[+] Setting up SublimeText"
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-apt-get install -y sublime-text /dev/null
+apt-get install -y sublime-text > /dev/null
 echo "[+] Setting up URLCrazy"
 apt-get install -y urlcrazy > /dev/null
 echo "[+] Setting up The Harvester"
