@@ -2,14 +2,14 @@
 echo "[+] Setting up Kali..."
 apt-get update >/dev/null
 sleep 2
-apt-get -y install tmux vim golang git python3 python3-pip >/dev/null
+apt-get install -y tmux vim golang git python3 python3-pip >/dev/null
 sleep 2
 mkdir /root/se/
 sleep 1
 cd /root/se/
 sleep 1
 echo "[+] Setting up GoReport"
-git clone https://github.com/chrismaddalena/Goreport.git >/dev/null
+git clone https://github.com/chrismaddalena/Goreport.git > /dev/null
 sleep 2
 cd /root/se/Goreport/
 pip3 install -r requirements.txt > /dev/null
