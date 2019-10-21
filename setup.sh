@@ -4,12 +4,12 @@ apt-get update >/dev/null
 sleep 2
 apt-get -y install tmux vim golang git python3 python3-pip >/dev/null
 sleep 2
-mkdir /root/se
-echo "[+] Setting up GoReport"
+mkdir /root/se/
 cd /root/se/
+echo "[+] Setting up GoReport"
 git clone https://github.com/chrismaddalena/Goreport.git >/dev/null
 sleep 2
-cd /root/se/Goreport
+cd /root/se/Goreport/
 pip3 install -r requirements.txt > /dev/null
 sleep 2
 cd /root/se/
